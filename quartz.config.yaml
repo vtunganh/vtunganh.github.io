@@ -20,30 +20,30 @@ configuration:
         name: Literata
         weights: [500, 600]
       body:
-        name: Literata
-        weights: [400, 600]
+        name: Be Vietnam Pro
+        weights: [400, 500, 600]
         includeItalic: true
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f8f4ec"
-        lightgray: "#e4dccd"
-        gray: "#b0a593"
-        darkgray: "#2b2620"
-        dark: "#1b1713"
-        secondary: "#8c3a2b"
-        tertiary: "#a8743f"
-        highlight: rgba(140, 58, 43, 0.07)
-        textHighlight: "#f2d98a88"
+        light: "#fdfdfc"
+        lightgray: "#e8e8e5"
+        gray: "#a8a9ad"
+        darkgray: "#2b2c30"
+        dark: "#16171d"
+        secondary: "#2e5e4e"
+        tertiary: "#5f8a7b"
+        highlight: rgba(46, 94, 78, 0.08)
+        textHighlight: "#fff1a888"
       darkMode:
-        light: "#1a1816"
-        lightgray: "#36312b"
-        gray: "#6e665b"
-        darkgray: "#dcd4c6"
-        dark: "#f1eadd"
-        secondary: "#de9a7f"
-        tertiary: "#cfae7f"
-        highlight: rgba(222, 154, 127, 0.12)
+        light: "#17181c"
+        lightgray: "#2c2d33"
+        gray: "#62646c"
+        darkgray: "#d9dade"
+        dark: "#f0f0f2"
+        secondary: "#8fbfae"
+        tertiary: "#b7d6ca"
+        highlight: rgba(143, 191, 174, 0.12)
         textHighlight: "#b3871a66"
   links:
     markdownLinkResolution: shortest

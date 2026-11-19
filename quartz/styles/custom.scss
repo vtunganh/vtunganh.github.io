@@ -8,7 +8,7 @@
 
 // ---- Bố cục: khung đọc giữa ~800px, sidebar gọn lại ----
 $side: 250px;
-$reading: 800px;
+$reading: 750px;
 
 .page {
   max-width: calc(#{$side} * 2 + #{$reading} + 6rem);
@@ -44,14 +44,14 @@ $reading: 800px;
   }
 }
 
-// ---- Chữ thân bài: serif, 18.5px, giãn dòng 1.7 ----
+// ---- Chữ thân bài: Be Vietnam Pro ~17.3px, giãn dòng 1.65 ----
 article {
-  font-size: 1.16rem;
+  font-size: 1.08rem;
 
   p,
   li,
   td {
-    line-height: 1.7;
+    line-height: 1.65;
   }
 
   p {
@@ -73,19 +73,21 @@ article {
     font-weight: 600;
   }
 
-  // link trong bài: gạch chân mảnh thay cho nền tô màu
-  a.internal,
+  // link trong bài: cùng màu chữ, chỉ gạch chân mảnh (kiểu đơn sắc)
+  a.internal:not(.tag-link),
   a.external {
+    color: var(--dark);
     background-color: transparent;
     padding: 0;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.18em;
-    text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+    text-underline-offset: 0.2em;
+    text-decoration-color: var(--gray);
     font-weight: 500;
     line-height: inherit;
 
     &:hover {
+      color: var(--secondary);
       text-decoration-color: currentColor;
     }
   }
@@ -94,7 +96,8 @@ article {
   blockquote {
     margin: 1.6em 0;
     padding: 0.1em 0 0.1em 1.2em;
-    border-left: 2px solid var(--secondary);
+    border-left: 2px solid var(--dark);
+    font-family: var(--headerFont);
     font-style: italic;
     color: var(--darkgray);
 
@@ -157,7 +160,7 @@ article h3 {
 // ---- Điện thoại / iPad: không cuộn ngang ----
 @media all and ($mobile) {
   article {
-    font-size: 1.08rem;
+    font-size: 1.04rem;
   }
   .page article > h1,
   .page .article-title {
@@ -179,5 +182,40 @@ article,
   iframe {
     max-width: 100%;
     height: auto;
+  }
+}
+
+// ---- Màu "hero" xanh rêu chỉ dùng ~10%: tag, mục đang chọn, nút ----
+.page-title a,
+.page-title a:hover {
+  color: var(--dark);
+}
+
+.breadcrumb-container a {
+  color: var(--gray);
+  font-weight: 500;
+  &:hover {
+    color: var(--secondary);
+  }
+}
+
+.explorer {
+  .folder-title,
+  .folder-button,
+  a {
+    color: var(--darkgray);
+  }
+  a.active {
+    color: var(--secondary);
+    opacity: 1;
+  }
+}
+
+.toc a,
+.backlinks a {
+  color: var(--darkgray);
+  background: transparent;
+  &:hover {
+    color: var(--secondary);
   }
 }
