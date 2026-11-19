@@ -1,3 +1,183 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ============================================================
+// Giao diện "classic, dễ đọc" cho blog Tùng Anh
+// Chỉ ghi đè qua file này (cơ chế tuỳ biến chính thức của Quartz v5).
+// Font và màu đặt trong quartz.config.yaml (theme.typography, theme.colors).
+// ============================================================
+
+// ---- Bố cục: khung đọc giữa ~800px, sidebar gọn lại ----
+$side: 250px;
+$reading: 800px;
+
+.page {
+  max-width: calc(#{$side} * 2 + #{$reading} + 6rem);
+
+  & > #quartz-body {
+    @media all and ($desktop) {
+      grid-template-columns: #{$side} minmax(0, 1fr) #{$side};
+      column-gap: 2rem;
+    }
+    @media all and ($tablet) {
+      grid-template-columns: 230px minmax(0, 1fr);
+      column-gap: 1.5rem;
+    }
+
+    & .sidebar {
+      @media all and not ($mobile) {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+    }
+
+    & .page-header,
+    & .center,
+    & footer {
+      @media all and not ($mobile) {
+        max-width: $reading;
+        min-width: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+// ---- Chữ thân bài: serif, 18.5px, giãn dòng 1.7 ----
+article {
+  font-size: 1.16rem;
+
+  p,
+  li,
+  td {
+    line-height: 1.7;
+  }
+
+  p {
+    margin: 0 0 1.15em;
+  }
+
+  ul,
+  ol {
+    margin: 0.4em 0 1.15em;
+    padding-left: 1.4em;
+  }
+
+  li + li {
+    margin-top: 0.35em;
+  }
+
+  // in đậm vừa phải, không chói
+  strong {
+    font-weight: 600;
+  }
+
+  // link trong bài: gạch chân mảnh thay cho nền tô màu
+  a.internal,
+  a.external {
+    background-color: transparent;
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+    font-weight: 500;
+    line-height: inherit;
+
+    &:hover {
+      text-decoration-color: currentColor;
+    }
+  }
+
+  // trích dẫn
+  blockquote {
+    margin: 1.6em 0;
+    padding: 0.1em 0 0.1em 1.2em;
+    border-left: 2px solid var(--secondary);
+    font-style: italic;
+    color: var(--darkgray);
+
+    p {
+      margin-bottom: 0.6em;
+    }
+  }
+
+  hr {
+    margin: 2.5em auto;
+    width: 30%;
+    border: none;
+    border-top: 1px solid var(--lightgray);
+  }
+}
+
+// ---- Tiêu đề: cùng họ serif, đậm vừa ----
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.3;
+}
+
+.page article > h1,
+.page .article-title {
+  font-size: 2.1rem;
+  line-height: 1.25;
+  margin-bottom: 0.6rem;
+}
+
+.page .content-meta {
+  margin-top: 0;
+  color: var(--gray);
+}
+
+article h2 {
+  font-size: 1.45rem;
+  margin-top: 2.2em;
+  margin-bottom: 0.7em;
+}
+
+article h3 {
+  font-size: 1.2rem;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+// ---- Callout "Tư liệu": nhẹ nhàng, không màu mè ----
+.callout[data-callout="info"] {
+  --color: var(--secondary);
+  --border: var(--lightgray);
+  --bg: color-mix(in srgb, var(--secondary) 5%, transparent);
+  font-size: 0.92em;
+  font-style: normal;
+}
+
+// ---- Điện thoại / iPad: không cuộn ngang ----
+@media all and ($mobile) {
+  article {
+    font-size: 1.08rem;
+  }
+  .page article > h1,
+  .page .article-title {
+    font-size: 1.75rem;
+  }
+}
+
+article,
+.center {
+  overflow-wrap: break-word;
+  min-width: 0;
+
+  a {
+    overflow-wrap: anywhere;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}

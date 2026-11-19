@@ -1,6 +1,5 @@
 ---
-title: Thám tử Hình học
-date: 2026-11-19
+title: "Thám tử Hình học"
 description: Trò chơi nhận biết hình học cho bé, chơi ngay trên trình duyệt hoặc iPad.
 tags:
   - game
@@ -20,4 +19,4 @@ Bé vào vai thám tử, quan sát và tìm ra các hình học ẩn trong từn
 3. Chọn **Thêm vào MH chính** (*Add to Home Screen*), đặt tên rồi bấm **Thêm**.
 4. Từ giờ bé chỉ cần chạm vào biểu tượng trên màn hình chính.
 
-Xem thêm các trò khác ở [[games/index|Game cho bé]], hoặc đọc [[essays/bai-mau-viet-de-nghi|Viết để nghĩ]].
+Xem thêm các trò khác ở [[games/index|Game cho bé]].

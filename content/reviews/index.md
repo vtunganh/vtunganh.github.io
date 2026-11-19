@@ -1,5 +1,6 @@
 ---
-title: Sách & đọc
+title: "Sách & đọc"
+description: Ghi chép sách, tư liệu đáng đọc kèm nguồn, và sổ tay trích dẫn.
 ---
 
-Cảm nhận về những cuốn sách tôi đã đọc, kèm vài đoạn tâm đắc và điều rút ra được.
+Ghi chép khi đọc sách, những tư liệu tôi thấy đáng giữ lại (kèm tác giả và nguồn để bạn đọc tìm bản gốc), và một [[so-tay-trich-dan|sổ tay trích dẫn]].
