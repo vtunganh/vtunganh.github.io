@@ -1,0 +1,21 @@
+***A few films that Hayao Miyazaki cites as major influences:***
+***The Snow Queen (1957, Soviet Union, dir. Lev Atamanov)***
+***Hedgehog in the Fog (1975, Soviet Union, dir. Yuriy Norshteyn)***
+***The Tale of the White Serpent (1958, Japan, dir. Taiji Yabushita & Kazuhiko Okabe)***
+***The King and the Mockingbird (1952/1980, France, dir. Paul Grimault)***
+
+# Hayao Miyazaki - Themes, Influences and Style - Influences
+
+**Influences**
+
+A number of Western authors have influenced Miyazaki's work, including Ursula K. Le Guin, Lewis Carroll, and Diana Wynne Jones. Miyazaki confided to Le Guin that _Earthsea_ had been a great influence on all his works, and that he kept her books at his bedside. Miyazaki and French writer and illustrator Jean Giraud (a.k.a. Moebius) have influenced each other and have become friends as a result of their mutual admiration. Monnaie de Paris held an exhibition of their work titled _Miyazaki et Moebius: Deux Artistes Dont Les Dessins Prennent Vie_ (Two Artists’s Drawings Taking on a Life of Their Own) from December 2004 to April 2005. Both artists attended the opening of the exhibition. Moebius named his daughter Nausicaa after Miyazaki's heroine. Miyazaki has been deeply influenced by another French writer, Antoine de Saint-Exupéry. He illustrated the Japanese covers of Saint-Exupéry's _Night Flight_ (_Vol de nuit_) and _Wind, Sand and Stars_ (_Terre des Hommes_), and wrote an afterword for _Wind, Sand and Stars_.
+
+In an interview broadcast on BBC Choice on 2002-06-10, Miyazaki cited the British authors Eleanor Farjeon, Rosemary Sutcliff, and Philippa Pearce as influences. The filmmaker has also publicly expressed fondness for Roald Dahl's stories about pilots and airplanes; the image in _Porco Rosso_ of a cloud of dead pilots was inspired by Dahl's _They Shall Not Grow Old._ As in Miyazaki's films, these authors create self-contained worlds in which allegory is often used, and characters have complex, and often ambiguous, motivations. Other Miyazaki works, such as _My Neighbor Totoro,_ _Princess Mononoke,_ and _Spirited Away,_ incorporate elements of Japanese history and mythology.
+
+Miyazaki has said he was inspired to become an animator by _The Tale of the White Serpent_, considered the first modern anime, in 1958. He has also said that _The Snow Queen_, a Soviet animated film, was one of his earliest inspirations, and that it motivated him to stay in animation production. Yuriy Norshteyn, a Russian animator, is Miyazaki's friend and praised by him as "a great artist." Norshteyn's _Hedgehog in the Fog_ is cited as one of Miyazaki's favourite animated films. Miyazaki has long been a fan of the Aardman Studios animation. In May 2006, David Sproxton and Peter Lord, founders of Aardman Studios, visited the Ghibli Museum exhibit dedicated to their works, where they also met Miyazaki.
+
+Pete Docter, director of the popular films _Up_ and _Monsters, Inc._ as well as a co-creator of other Pixar works, has praised Miyazaki and described him as an influence. Glen Keane, the animator for successful Disney films such as _The Little Mermaid_, _The Rescuers Down Under_, _Beauty and the Beast_, _Aladdin_, and _Tangled_, has also credited Miyazaki as a "huge influence" on his work and on Disney in general during the past two decades. Bryan Konietzko and Michael Dante DiMartino have cited Miyazaki's work as having the biggest influence on the universe and style of _Avatar: The Last Airbender_.
+
+Miyazaki has also been cited as an influence on various role-playing video games. The creator of Square's _Final Fantasy_ series, Hironobu Sakaguchi, cited Miyazaki as inspiration for elements such as the airships and chocobos featured in the series. The post-apocalyptic setting of SNK's _Crystalis_ was inspired by Miyazaki's _Nausicaa of the Valley of the Wind_, and _Crystalis_ in turn influenced Square's _Secret of Mana_.
+
+Miyazaki has also been influenced by Akira Kurosawa. He was successful in bringing the Western World's attention to Japanese animation with the success of the 1951 film, _Rashomon_, _Seven Samurai_ in 1957, and _Yojimbo_ in 1960. Another influence was Osamu Tezuka who was a pioneer in new manga styles and techniques. And also, Miyazaki even said 'I wish Osamu Tezuka could have watched it '.
